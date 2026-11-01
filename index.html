@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Taskoholic</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>
+Taskoholic ☑
+</h1>
+
+<p>
+Organize your life one task at a time ☁️
+</p>
+
+</header>
+
+
+
+<button id="themeBtn">
+🌙
+</button>
+
+
+
+<div id="taskContainer"></div>
+
+
+
+<button id="addBtn">
++
+</button>
+
+
+
+
+<div id="taskForm" class="hidden">
+
+
+<div class="formBox">
+
+
+<h2>
+Add New Task ☁️
+</h2>
+
+
+<input 
+id="taskInput"
+type="text"
+placeholder="Enter your task">
+
+
+
+<label>
+Deadline (optional)
+</label>
+
+
+<input
+id="dateInput"
+type="date">
+
+
+
+<button onclick="addTask()">
+Add Task
+</button>
+
+
+
+<button onclick="closeForm()" class="cancel">
+Cancel
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
